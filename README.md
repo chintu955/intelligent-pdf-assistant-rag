@@ -123,8 +123,12 @@ The France question tests whether the system avoids answering questions that are
 
 ## 📁 Project Structure
 
+
 ```text
-beginner-rag/
+## 📁 Project Structure
+
+```text
+intelligent-pdf-assistant-rag/
 │
 ├── app.py
 ├── monitoring_dashboard.py
@@ -138,11 +142,6 @@ beginner-rag/
 ├── quality_decision.py
 ├── evaluate.py
 ├── test_answer.py
-│
-├── data/
-│   └── ML Notes.pdf
-│
-├── vector_db_experiment/
 │
 ├── requirements.txt
 ├── README.md
@@ -202,8 +201,10 @@ python -m streamlit run monitoring_dashboard.py
 
 ## 🎯 Project Objective
 
-The objective of this project is to build a reliable document-based AI assistant that provides context-grounded answers and reduces unsupported responses through multiple validation stages.
-
+The objective of this project is to develop a document-based AI assistant
+that combines Retrieval-Augmented Generation with answer validation,
+citation verification, and quality-based decision-making to improve
+the reliability of LLM-generated responses.
 ## 👨‍💻 Author
 
 AI/ML Engineering Portfolio Project
