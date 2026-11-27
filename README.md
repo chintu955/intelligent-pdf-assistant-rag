@@ -129,6 +129,7 @@ The following test cases were performed:
 
 The France question tests whether the system avoids answering questions that are outside the available PDF context.
 
+
 ## 📁 Project Structure
 
 ```text
@@ -211,6 +212,19 @@ python -m streamlit run monitoring_dashboard.py
 
 ## 🎯 Project Objective
 
+<<<<<<< HEAD
+The objective of this project is to develop a document-based AI assistant that combines Retrieval-Augmented Generation with answer validation, citation verification, and quality-based decision-making to improve the reliability of LLM-generated responses.
+
+## 🔮 Future Improvements
+
+- Support for additional document formats
+- Improved retrieval and reranking strategies
+- Advanced evaluation using RAGAS
+- Better monitoring and logging
+- User feedback integration
+- Cloud deployment
+
+=======
 The objective of this project is to develop a document-based AI assistant that combines Retrieval-Augmented Generation with answer validation, citation verification, and quality-based decision-making to improve the reliability of LLM-generated responses.
 
 ## 🔮 Future Improvements
