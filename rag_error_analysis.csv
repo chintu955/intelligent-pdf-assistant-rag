@@ -1,0 +1,8 @@
+Question,Faithfulness,Answer Relevancy,Context Precision,Context Recall,Errors
+What is Machine Learning?,,0.835608317554409,0.999999999975,1.0,faithfulness: Missing score
+Explain the advantages of Machine Learning.,,0.9725203362338504,,1.0,faithfulness: Missing score | llm_context_precision_with_reference: Missing score
+What is supervised learning?,,0.743118583287556,0.999999999975,0.5,faithfulness: Missing score | answer_relevancy: Low score (0.74) | context_recall: Low score (0.50)
+What is unsupervised learning?,0.3333333333333333,0.6900683316502003,0.99999999998,1.0,faithfulness: Low score (0.33) | answer_relevancy: Low score (0.69)
+What is reinforcement learning?,1.0,0.850942700206983,,1.0,llm_context_precision_with_reference: Missing score
+What is the difference between classification and regression?,,0.9943404721197177,0.9166666666361111,0.5,faithfulness: Missing score | context_recall: Low score (0.50)
+What is the difference between traditional programming and Machine Learning?,,1.0000000000000002,0.9999999999666667,,faithfulness: Missing score | context_recall: Missing score

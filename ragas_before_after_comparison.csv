@@ -1,0 +1,5 @@
+Metric,Without Reranking,With Reranking,Improvement,Before Valid Questions,After Valid Questions
+Faithfulness,0.8,0.8,0.0,5,5
+Answer Relevancy,0.8337625533559438,0.8883467094931412,0.05458415613719736,9,10
+Context Precision,0.9621031745827646,0.9952380952177143,0.033134920634949716,8,7
+Context Recall,1.0,0.8833333333333332,-0.11666666666666681,10,10

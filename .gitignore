@@ -1,0 +1,28 @@
+# Python environments
+.venv/
+.venv312/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+
+# Vector databases
+vector_db/
+vector_db_experiment/
+vector_db_backup/
+vector_db_clean/
+
+# Private PDF documents
+Data/
+
+# IDE files
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
