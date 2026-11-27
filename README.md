@@ -121,10 +121,7 @@ The following test cases were performed:
 
 The France question tests whether the system avoids answering questions that are outside the available PDF context.
 
-## 📁 Project Structure
 
-
-```text
 ## 📁 Project Structure
 
 ```text
