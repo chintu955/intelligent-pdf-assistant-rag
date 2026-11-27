@@ -1,6 +1,6 @@
 # 🤖 Intelligent PDF Assistant – RAG Monitoring Dashboard
 
-An AI-powered PDF Question Answering system built using Retrieval-Augmented Generation (RAG).
+An AI-powered PDF Question Answering system built using **Retrieval-Augmented Generation (RAG)**.
 
 This project allows users to ask questions about PDF documents and receive context-based answers with source citations.
 
@@ -8,11 +8,11 @@ It also includes hallucination detection, citation validation, answer quality ev
 
 ## 🚀 Project Overview
 
-Traditional LLMs can sometimes generate incorrect or unsupported information.
+Traditional Large Language Models (LLMs) can sometimes generate incorrect or unsupported information.
 
 This project addresses that problem by retrieving relevant information from PDF documents before generating answers.
 
-The generated answers are then checked using multiple validation components.
+The generated answers are then checked using multiple validation components to improve reliability.
 
 ## ✨ Key Features
 
@@ -40,16 +40,16 @@ The generated answers are then checked using multiple validation components.
              Text Extraction
                     |
                     v
-             Text Chunking
+              Text Chunking
                     |
                     v
              Embedding Model
                     |
                     v
-              ChromaDB
+                ChromaDB
                     |
                     v
-             User Question
+              User Question
                     |
                     v
                 Retrieval
@@ -61,7 +61,7 @@ The generated answers are then checked using multiple validation components.
              Context + Query
                     |
                     v
-              Local LLM
+                Local LLM
                     |
                     v
              Generated Answer
@@ -109,6 +109,14 @@ Every generated answer passes through multiple validation stages.
 3. **Quality Evaluation:** Evaluates correctness, relevance, and completeness.
 4. **Final Decision:** Determines whether the answer should be accepted, shown with a warning, or rejected.
 
+### Final Decision Categories
+
+| Decision | Meaning |
+|---|---|
+| ACCEPT | Answer passes the validation checks |
+| WARNING | Answer needs additional attention |
+| REJECT | Answer should not be accepted |
+
 ## 🧪 Project Testing
 
 The following test cases were performed:
@@ -124,7 +132,7 @@ The France question tests whether the system avoids answering questions that are
 ## 📁 Project Structure
 
 ```text
-beginner-rag/
+intelligent-pdf-assistant-rag/
 │
 ├── app.py
 ├── monitoring_dashboard.py
@@ -139,28 +147,31 @@ beginner-rag/
 ├── evaluate.py
 ├── test_answer.py
 │
-├── data/
-│   └── ML Notes.pdf
-│
-├── vector_db_experiment/
-│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
+**Note:** PDF documents and generated vector database files are excluded from this public repository.
+
 ## ⚙️ Installation and Setup
+
+### Prerequisites
+
+- Python 3.12
+- Git
+- Ollama
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/beginner-rag.git
+git clone https://github.com/chintu955/intelligent-pdf-assistant-rag.git
 ```
 
 ### 2. Navigate to the project folder
 
 ```bash
-cd beginner-rag
+cd intelligent-pdf-assistant-rag
 ```
 
 ### 3. Create a virtual environment
@@ -183,9 +194,7 @@ Windows PowerShell:
 pip install -r requirements.txt
 ```
 
-### 6. Install and start Ollama
-
-Install Ollama and download the required models:
+### 6. Install Ollama models
 
 ```bash
 ollama pull llama3.2:3b
@@ -202,10 +211,21 @@ python -m streamlit run monitoring_dashboard.py
 
 ## 🎯 Project Objective
 
-The objective of this project is to build a reliable document-based AI assistant that provides context-grounded answers and reduces unsupported responses through multiple validation stages.
+The objective of this project is to develop a document-based AI assistant that combines Retrieval-Augmented Generation with answer validation, citation verification, and quality-based decision-making to improve the reliability of LLM-generated responses.
+
+## 🔮 Future Improvements
+
+- Support for additional document formats
+- Improved retrieval and reranking strategies
+- Advanced evaluation using RAGAS
+- Better monitoring and logging
+- User feedback integration
+- Cloud deployment
 
 ## 👨‍💻 Author
 
-AI/ML Engineering Portfolio Project
+**AI/ML Engineering Portfolio Project**
 
 **Project:** Intelligent PDF Assistant – RAG Monitoring Dashboard
+
+**GitHub:** https://github.com/chintu955
